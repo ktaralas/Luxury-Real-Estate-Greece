@@ -1,0 +1,36 @@
+pages/luxury-real-estate-greece.js
+import Head from 'next/head';
+
+export default function LuxuryRealEstateGreece() {
+  return (
+    <>
+      <Head>
+        <title>Luxury Real Estate Greece</title>
+        <meta name="description" content="Explore luxury villas, beachfront homes and exclusive properties in Greece." />
+      </Head>
+      <main style={{ padding: "2rem", fontFamily: "sans-serif" }}>
+        <h1>Luxury Real Estate Greece</h1>
+        <p>
+          Looking for <strong>luxury properties in Greece</strong>? Whether it’s a villa in Mykonos,
+          a mansion in Santorini, or a seafront home in Athens, Greece offers some of the most exclusive
+          real estate in the Mediterranean.
+        </p>
+        <img
+          src="https://www.greekexclusiveproperties.com/wp-content/uploads/2023/10/Luxury-Villa-Santorini-1.jpg"
+          alt="Luxury Villa in Santorini"
+          width="100%"
+          style={{ maxWidth: "800px", borderRadius: "10px", marginTop: "1rem" }}
+        />
+        <p style={{ marginTop: "1rem" }}>
+          👉 View full listings on{" "}
+          <a href="https://www.greekexclusiveproperties.com" target="_blank" rel="noopener noreferrer">
+            Greek Exclusive Properties
+          </a>
+        </p>
+        <p>
+          🏠 Discover the <a href="https://www.greekexclusiveproperties.com/best-homes/">Best Homes for Sale in Greece</a> now!
+        </p>
+      </main>
+    </>
+  );
+}
